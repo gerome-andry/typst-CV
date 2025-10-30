@@ -1,9 +1,11 @@
 #set text(size: 12pt, font: "PT Sans")
 #set page(paper: "a4")
-#let email = symbol("")
-#let scholar = symbol("")
-#let site = symbol("")
-#let git = symbol("")
+#import "@preview/fontawesome:0.6.0": *
+
+#let email = fa-icon("envelope", solid: true)
+#let scholar = fa-icon("google-scholar")
+#let site = fa-icon("globe")
+#let git = fa-icon("github")
 
 
 #text(30pt)[
